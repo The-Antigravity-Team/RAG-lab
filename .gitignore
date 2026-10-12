@@ -1,0 +1,18 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ChromaDB local persistence (optional to ignore or track, better to ignore large local index DB)
+chroma_db/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
